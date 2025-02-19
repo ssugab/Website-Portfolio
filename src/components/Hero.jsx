@@ -1,6 +1,7 @@
 import { HERO } from "../constants"
 import personimg from "../assets/bagus.jpg"
 import { motion } from "framer-motion"
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -13,8 +14,21 @@ const Hero = () => {
         <h2 className="my-8 p-2 text-4xl font-bold  md:text-5xl lg:text-[6rem]">
           {HERO.name}
         </h2>
-        <p className="p-2 text-3xl tracking-tighter lg:text-4xl">
-          {HERO.greet}
+        <p className="p-2 mb-6 text-3xl tracking-tighter lg:text-4xl">
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                HERO.roles1,
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                HERO.roles2,
+                1000,
+                HERO.roles3,
+                1000,
+              ]}
+              wrapper="span"
+              speed={30}
+              repeat={Infinity}
+          />
         </p>
         <p className="mb-8 p-2 text-xl">
           {HERO.description}

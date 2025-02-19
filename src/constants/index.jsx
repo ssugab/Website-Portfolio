@@ -1,18 +1,18 @@
 import {
-  FaXTwitter,
+  // FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaDiscord,
+  // FaFacebook,
+  // FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage1 from "../assets/project1.png";
+import projectImage2 from "../assets/project2.png";
+import projectImage3 from "../assets/project3.png";
+// import projectImage4 from "../assets/project4.jpeg";
+// import projectImage5 from "../assets/project5.jpeg";
+// import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -32,9 +32,12 @@ export const NAVIGATION_LINKS = [
 
 export const HERO = {
   name: "BAGUS SATRIO WICAKSONO",
-  greet: "Hello there! 👋🏻",
+  roles: "Web Developer | Graphic Designer", //| Cybersecurity Enthusiast
+  roles1: "Im a Web Developer",
+  roles2: "Im a Graphic Designer",
+  roles3: "Im a Cloud Engineer",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences.",
 };
 
 export const PROJECTS = [
@@ -44,48 +47,48 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/ssugab/Website-Portfolio",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Twiceland",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "A information website about TWICE, a Kpop Group, providing all information about the group, members, and discography. Built with Tailwind and Vanilla JS. (Under re-development)",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/ssugab/Twiceland",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Website Profile Management",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A profile management application built with PHP including features like CRUD a user data.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/ssugab/WebsiteProfile",
   },
-  {
-    id: 4,
-    name: "Weather App",
-    description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
-    image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
-  },
-  {
-    id: 5,
-    name: "Blog Platform",
-    description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
-  },
-  {
-    id: 6,
-    name: "Chat Application",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
-  },
+  // {
+  //   id: 4,
+  //   name: "Weather App",
+  //   description:
+  //     "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+  //   image: projectImage4,
+  //   githubLink: "https://github.com/user/weather-app",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Blog Platform",
+  //   description:
+  //     "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+  //   image: projectImage5,
+  //   githubLink: "https://github.com/user/blog-platform",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Chat Application",
+  //   description:
+  //     "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+  //   image: projectImage6,
+  //   githubLink: "https://github.com/user/chat-application",
+  // },
 ];
 
 // export const BIO = [
@@ -169,28 +172,28 @@ export const EXPERIENCES = [
 // ];
 
 export const SOCIAL_MEDIA_LINKS = [
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+  // },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+  // },
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://instagram.com/bagustr_w",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
+  // },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
+    href: "https://github.com/ssugab",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/bagus-satrio-wicaksono",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
