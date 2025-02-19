@@ -101,7 +101,7 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "6 month",
+    experience: "2 months",
   },
   {
     icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
@@ -111,12 +111,12 @@ export const SKILLS = [
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "6 month",
+    experience: "4 months",
   },
   {
     icon: <SiPhp className="text-4xl text-violet-400 lg:text-5xl" />,
     name: "PHP",
-    experience: "6 month",
+    experience: "4 months",
   },
   {
     icon: <SiAdobephotoshop className="text-4xl text-blue-600 lg:text-5xl" />,
