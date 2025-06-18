@@ -10,6 +10,7 @@ import {
 import projectImage1 from "../assets/project1.png";
 import projectImage2 from "../assets/project2.png";
 import projectImage3 from "../assets/project3.png";
+import projectImage4 from "../assets/project4.png";
 // import projectImage4 from "../assets/project4.jpeg";
 // import projectImage5 from "../assets/project5.jpeg";
 // import projectImage6 from "../assets/project6.jpeg";
@@ -65,6 +66,14 @@ export const PROJECTS = [
     image: projectImage3,
     githubLink: "https://github.com/ssugab/WebsiteProfile",
   },
+  {
+    id: 4,
+    name: "KWU E-commerce Website",
+    description:
+      "A comprehensive e-commerce platform built with MERN Stack, featuring product listings, shopping cart functionality, and user authentication also admin dashboard functionality.",
+    image: projectImage4,
+    githubLink: "https://github.com/ssugab/KWU-E-Commerce",
+  }
   // {
   //   id: 4,
   //   name: "Weather App",
