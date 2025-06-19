@@ -38,7 +38,7 @@ export const HERO = {
   roles2: "Im a Graphic Designer",
   roles3: "Im a Cloud Engineer",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences.",
+    "I am a passionate frontend developer with a motivation to create beautiful and functional user interfaces. I like transforming ideas into engaging web experiences. Also dive in Fullstack Development, Cloud Computing, and Cybersecurity. I am always eager to learn new technologies and improve my skills through hands on experiences.",
 };
 
 export const PROJECTS = [
@@ -60,20 +60,20 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "Website Profile Management",
-    description:
-      "A profile management application built with PHP including features like CRUD a user data.",
-    image: projectImage3,
-    githubLink: "https://github.com/ssugab/WebsiteProfile",
-  },
-  {
-    id: 4,
     name: "KWU E-commerce Website",
     description:
       "A comprehensive e-commerce platform built with MERN Stack, featuring product listings, shopping cart functionality, and user authentication also admin dashboard functionality.",
     image: projectImage4,
     githubLink: "https://github.com/ssugab/KWU-E-Commerce",
-  }
+  },
+  {
+    id: 4,
+    name: "Website Profile Management",
+    description:
+      "A simple profile management application built with PHP including features like CRUD a user data.",
+    image: projectImage3,
+    githubLink: "https://github.com/ssugab/WebsiteProfile",
+  },
   // {
   //   id: 4,
   //   name: "Weather App",
@@ -110,7 +110,7 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2 months",
+    experience: "3 months",
   },
   {
     icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
@@ -120,7 +120,7 @@ export const SKILLS = [
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "4 months",
+    experience: "6 months",
   },
   {
     icon: <SiPhp className="text-4xl text-violet-400 lg:text-5xl" />,
@@ -142,24 +142,17 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     title: "Bangkit Academy 2024",
-    company: "Yayasan Dicoding Indonesia",
+    company: "by Yayasan Dicoding Indonesia",
     duration: "September 2024 - December 2024",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "Learning in the Cloud Computing Path, i spent 3 months learning about Cloud Computing, including Google Cloud Platform, Kubernetes, and DevOps practices. I gained hands-on experience (Capstone Project) in deploying applications on the cloud and managing infrastructure of the backend services.",
   },
   {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
+    title: "Google Developer Student Clubs - Universitas Pembangunan Nasional Veteran Jawa Timur",
+    company: "by GDSCr",
+    duration: "February 2023 - June 2023",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "Participated in the Machine Learning Path program, where I gained hands-on experience in building machine learning models and deploying them using Google Cloud Platform. Using python, tensorflow, and other ML tech stacks provided. I collaborated with fellow students to develop innovative solutions and enhance my understanding of machine learning concepts.",
   },
 ];
 
@@ -190,7 +183,7 @@ export const SOCIAL_MEDIA_LINKS = [
   //   icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   // },
   {
-    href: "https://instagram.com/bagustr_w",
+    href: "https://instagram.com/bagustrrw",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   // {

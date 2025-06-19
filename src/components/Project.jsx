@@ -28,8 +28,8 @@ const Project = () => {
             whileHover={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
             className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 hover:opacity-100">
-              <h3 className="mb-2 text-xl font-bold">{project.name}</h3>
-              <p className="mb-12 mt-2 p-10 ">{project.description}</p>
+              {project.id === 3 ? <h3 className="mb-2 text-xl font-bold text-black">{project.name}</h3> : <h3 className="mb-2 text-xl font-bold">{project.name}</h3>}
+              {project.id === 3 ? <p className="mb-12 mt-2 p-10 text-black">{project.description}</p> : <p className="mb-12 mt-2 p-10">{project.description}</p>}
               <a href={project.githubLink} target='_blank' rel='noopener noreferrer' className='rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300'>
                 <div className="flex items-center">
                   <span>View On Github</span>
