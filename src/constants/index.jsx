@@ -12,9 +12,10 @@ import projectImage2 from "../assets/project2.png";
 import projectImage2_2 from "../assets/project2-2.png";
 import projectImage3 from "../assets/project3.png";
 import projectImage4 from "../assets/project4.png";
-// import projectImage4 from "../assets/project4.jpeg";
-// import projectImage5 from "../assets/project5.jpeg";
-// import projectImage6 from "../assets/project6.jpeg";
+import projectImage4_2 from "../assets/project4-2.png";
+import projectImage4_3 from "../assets/project4-3.png";
+import projectImage4_4 from "../assets/project4-4.png";
+
 
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -58,18 +59,18 @@ export const PROJECTS = [
     id: 2,
     name: "Twiceland",
     description:
-      "A information website about TWICE, a Kpop Group, providing all information about the group, members, and discography. Built with Tailwind and Vanilla JS. (Under re-development)",
+      "A wikipedia-like website about TWICE, a Kpop Group, providing all information about the group, members, and discography. Built with Tailwind and React JS.",
     image: projectImage2,
     screenshots: [projectImage2, projectImage2_2],
     githubLink: "https://github.com/ssugab/Twiceland",
   },
   {
     id: 3,
-    name: "KWU E-commerce Website",
+    name: "BEM Kewirausahaan E-commerce Website",
     description:
-      "A comprehensive e-commerce platform built with MERN Stack, featuring product listings, shopping cart functionality, and user authentication also admin dashboard functionality.",
+      "A comprehensive and responsive e-commerce platform built with MongoDB Express React Node.js and Tailwind Stack. featuring product listings, shopping cart functionality, and user authentication also admin dashboard functionality to manage products, user, and transactions. The features were built based",
     image: projectImage4,
-    screenshots: [projectImage4, projectImage3, projectImage1],
+    screenshots: [projectImage4, projectImage4_2, projectImage4_3, projectImage4_4],
     githubLink: "https://github.com/ssugab/KWU-E-Commerce",
   },
   {
