@@ -10,7 +10,7 @@ const Footer = () => {
           initial={{ opacity: 0 }}
           whileInView={{opacity: 1 }}
           transition={{ duration: 0.5 }}
-          src={logo} width={200} className="my-20" alt="" />
+          src={logo} width={200} className="my-20" alt="Bagus Satrio Wicaksono Logo" />
       </div>
       <div className="flex items-center justify-center gap-8">
         {SOCIAL_MEDIA_LINKS.map((link, index) => (
@@ -24,7 +24,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
-        {/* &copy; All rights reserved. */}
+        &copy; {new Date().getFullYear()} Bagus Satrio Wicaksono. All rights reserved.
       </p>
     </div>
   )

@@ -44,7 +44,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          src={personimg} width={530} height={530} alt="person IMG" className="rounded-3xl hover:drop-shadow-custom-purple2" />
+          src={personimg} width={530} height={530} alt="Bagus Satrio Wicaksono - Web Developer and Cloud Enthusiast" className="rounded-3xl hover:drop-shadow-custom-purple2" />
         </div>
       </motion.div>
     </section>

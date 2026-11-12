@@ -60,7 +60,7 @@ const ContactForm = () => {
               console.log("Failed...", error);
               toast.error("Failed to send message . Please try again");
             })
-            .finish(() => {
+            .finally(() => {
               setIsSending(false);
             })
       }

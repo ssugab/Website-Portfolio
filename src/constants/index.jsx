@@ -9,6 +9,7 @@ import {
 
 import projectImage1 from "../assets/project1.png";
 import projectImage2 from "../assets/project2.png";
+import projectImage2_2 from "../assets/project2-2.png";
 import projectImage3 from "../assets/project3.png";
 import projectImage4 from "../assets/project4.png";
 // import projectImage4 from "../assets/project4.jpeg";
@@ -19,6 +20,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
 
@@ -42,6 +44,7 @@ export const HERO = {
 };
 
 export const PROJECTS = [
+  /*
   {
     id: 1,
     name: "Personal Portfolio",
@@ -49,13 +52,15 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/ssugab/Website-Portfolio",
-  },
+  }, 
+  */
   {
     id: 2,
     name: "Twiceland",
     description:
       "A information website about TWICE, a Kpop Group, providing all information about the group, members, and discography. Built with Tailwind and Vanilla JS. (Under re-development)",
     image: projectImage2,
+    screenshots: [projectImage2, projectImage2_2],
     githubLink: "https://github.com/ssugab/Twiceland",
   },
   {
@@ -64,14 +69,16 @@ export const PROJECTS = [
     description:
       "A comprehensive e-commerce platform built with MERN Stack, featuring product listings, shopping cart functionality, and user authentication also admin dashboard functionality.",
     image: projectImage4,
+    screenshots: [projectImage4, projectImage3, projectImage1],
     githubLink: "https://github.com/ssugab/KWU-E-Commerce",
   },
   {
     id: 4,
-    name: "Website Profile Management",
+    name: "Diecast Inventory Management",
     description:
       "A simple profile management application built with PHP including features like CRUD a user data.",
     image: projectImage3,
+    screenshots: [projectImage3, projectImage2, projectImage4],
     githubLink: "https://github.com/ssugab/WebsiteProfile",
   },
   // {
@@ -122,10 +129,16 @@ export const SKILLS = [
     name: "Node.js",
     experience: "8 months",
   },
+  /*
   {
     icon: <SiPhp className="text-4xl text-violet-400 lg:text-5xl" />,
     name: "PHP",
     experience: "4 months",
+  }, */
+  {
+    icon: <SiPostgresql className="text-4xl text-violet-400 lg:text-5xl" />,
+    name: "PostgreSQL",
+    experience: "3 months",
   },
   {
     icon: <SiAdobephotoshop className="text-4xl text-blue-600 lg:text-5xl" />,
@@ -133,9 +146,9 @@ export const SKILLS = [
     experience: "2 years",
   },
   {
-  icon: <SiAdobeillustrator className="text-4xl text-orange-400	 lg:text-5xl" />,
-  name: "Adobe Illustrator",
-  experience: "2 years",
+    icon: <SiAdobeillustrator className="text-4xl text-orange-400	 lg:text-5xl" />,
+    name: "Adobe Illustrator",
+    experience: "2 years",
   },
 ];
 
