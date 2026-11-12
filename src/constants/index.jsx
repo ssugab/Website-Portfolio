@@ -79,7 +79,7 @@ export const PROJECTS = [
     description:
       "A simple profile management application built with PHP including features like CRUD a user data.",
     image: projectImage3,
-    screenshots: [projectImage3, projectImage2, projectImage4],
+    screenshots: [projectImage3],
     githubLink: "https://github.com/ssugab/WebsiteProfile",
   },
   // {
